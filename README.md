@@ -6,14 +6,38 @@ This repository contains a fix for using the pyCRTM wrapper (https://github.com/
 
 ## Tutorial
 
- 1. Install CRTM following the tutorial and configuring the setup as in gfortran.setup;
- 2. Link or rename CRTM installation path to a directory called crtm and then configure the Makefile in pycrtm as in the given example;
- 3. Create pycrtm librarary with:
+ 1. Install CRTM following the tutorial [link](https://github.com/JCSDA/crtm#crtm-rel-240) and configuring the architecture environmental variables as in gfortran.setup;
+ 2. Link or rename the CRTM installation path as a directory called "*crtm"* and then configure the pyCRTM Makefile as in the given example;
+ 3. Create the pyCRTM librarary with:
     
               make clean
               make
- 4. Link CRTM coefficients inside the installation path in a directory called '*crtm_coef*';
- 5. Copy test_sensor.py in testCases and run it to test pyCRTM.
+ 4. Link CRTM coefficients inside the CRTM installation path in a directory called '*crtm_coef*';
+ 5. Copy test_sensor.py in *pyCRTM/testCases* and run it to test pyCRTM.
+
+One shoud have a similar folder structure:
+   -pycrtm
+   -----------Makefile
+   -----------pycrtm.cpython-37m-x86_64-linux-gnu.so
+   -----------testCases/test_sensor.py
+   -----------testCases/test_cris.py
+   ...
+
+   -crtm_lib
+   ----------crtm
+   ---------------config.log
+   ---------------include
+   ----------------------...
+   ---------------lib
+   ----------------------...
+   ---------------crtm_coef 
+   ---------------------------AerosolCoeff.CMAQ.bin
+   ---------------------------AerosolCoeff.bin
+   ---------------------------cris399_n20.TauCoeff.bin 
+   ---------------------------...
+
+<br/><br/>
+<br/><br/>
 
 
 ## File description
