@@ -1,6 +1,16 @@
 # FIX for pyCRTM with CRTM v2.4.0
 
+Introduction....blablabla
+Reference to original pycrtm and crtm repositories....
+
 ## Tutorial
+
+ 1. Install CRTM following the tutorial and configuring the setup as in gfortran.setup;
+ 2. Link or rename CRTM installation path to a directory called crtm and then configure the Makefile in pycrtm as in the given example;
+ 3. Create pycrtm librarary with:
+              make clean
+              make
+ 4. Copy test_sensor.py in testCases and run it to test pyCRTM.
 
 
 ## File description
