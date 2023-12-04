@@ -1,6 +1,6 @@
 # FIX for using pyCRTM with CRTM v2.4.0
 
-This repository contains a fix for using the pyCRTM wrapper (https://github.com/karpob/pycrtm) having CRTM version 2.4.0 installed (https://github.com/JCSDA/crtm). The fix consists of a configuration file to compile CRTM and a Makefile to compile the pyCRTM shared library. The software has been installed under several Ubuntu distributions.
+This repository contains a fix for using the pyCRTM wrapper (https://github.com/karpob/pycrtm) having CRTM version 2.4.0 installed (https://github.com/JCSDA/crtm). The fix consists of a configuration file to compile CRTM and a Makefile to create the pyCRTM shared library. The software has been installed under several Ubuntu distributions.
 
 <br/><br/>
 
