@@ -16,26 +16,27 @@ This repository contains a fix for using the pyCRTM wrapper (https://github.com/
  5. Copy test_sensor.py in *pyCRTM/testCases* and run it to test pyCRTM.
 
 One shoud have a similar folder structure:
-   -pycrtm
-   -----------Makefile
-   -----------pycrtm.cpython-37m-x86_64-linux-gnu.so
-   -----------testCases/test_sensor.py
-   -----------testCases/test_cris.py
-   ...
 
-   -crtm_lib
-   ----------crtm
-   ---------------config.log
-   ---------------include
-   ----------------------...
-   ---------------lib
-   ----------------------...
-   ---------------crtm_coef 
-   ---------------------------AerosolCoeff.CMAQ.bin
-   ---------------------------AerosolCoeff.bin
-   ---------------------------cris399_n20.TauCoeff.bin 
-   ---------------------------...
-
+         -pycrtm
+         -----------Makefile
+         -----------pycrtm.cpython-37m-x86_64-linux-gnu.so
+         -----------testCases/test_sensor.py
+         -----------testCases/test_cris.py
+         ...
+      
+         -crtm_lib
+         ----------crtm
+         ---------------config.log
+         ---------------include
+         ----------------------...
+         ---------------lib
+         ----------------------...
+         ---------------crtm_coef 
+         ---------------------------AerosolCoeff.CMAQ.bin
+         ---------------------------AerosolCoeff.bin
+         ---------------------------cris399_n20.TauCoeff.bin 
+         ---------------------------...
+      
 <br/><br/>
 <br/><br/>
 
