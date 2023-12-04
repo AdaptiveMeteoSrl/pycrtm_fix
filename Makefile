@@ -7,7 +7,7 @@
 #  FCFLAGS -- flags taken for the appropriate compiler (see CRTM "config-setup" directory)
 #  ILOC -- path to the CRTM install directory. 
 #          The install directory where you find  "lib" (where the libcrtm.a lives) and "include" (where all the *.mod files live)
-  ILOC = /home/adaptive/wrkdir/crtm_lib/crtm
+  ILOC    = CRTM_PATH/crtm
   FCFLAGS = -fimplicit-none -ffree-form -fopenmp -fno-second-underscore -frecord-marker=4 -std=f2008 -fcheck=all
   F2PY = f2py --fcompiler=gnu95 --f90flags='${FCFLAGS}'
   LIB = ${ILOC}/lib
