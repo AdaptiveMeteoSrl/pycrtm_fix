@@ -14,7 +14,7 @@ Reference to original pycrtm and crtm repositories....
     
               make clean
               make
-    
+ 4. Link CRTM coefficients inside the installation path in a directory called '*crtm_coef*';
  5. Copy test_sensor.py in testCases and run it to test pyCRTM.
 
 
