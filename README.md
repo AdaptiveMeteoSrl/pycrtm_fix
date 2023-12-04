@@ -1,4 +1,4 @@
-# FIX for using pyCRTM with CRTM v2.4.0
+# FIX for pyCRTM with CRTM v2.4.0
 
 ## Tutorial
 
